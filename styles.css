@@ -1,0 +1,49 @@
+#bx{
+    padding: 10%;
+    
+    
+}
+#leftbx{
+    border: 5px solid rgb(25, 135, 84);
+}
+#rightbx{
+    background-color: rgb(25, 135, 84);
+}
+.tc{
+    font-family:cursive;
+    padding:5%;
+}
+#ans{
+    float:right;
+    margin:30%;
+    border:0;
+    height:15%;
+    background-color: rgb(25, 135, 84);
+    color: white; 
+}
+
+#inputnum, #inputoptions, #lab, #outputoptions, #btn{
+      padding: 2%;
+      margin-left:5%;
+}
+
+#btn{
+    width:30%;
+}
+
+@media (max-width: 768px) {
+    #leftbx, #rightbx {
+        padding: 2%;
+        text-align: center;
+    }
+
+    #ans {
+        float: none; /* Removed float for better alignment on small screens */
+        margin: 0 auto; /* Centered the element */
+        width: fit-content; /* Adjust width for better responsiveness */
+    }
+
+    #btn {
+        width: 100%; /* Full width for better responsiveness */
+    }
+}
